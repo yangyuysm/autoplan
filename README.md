@@ -1,1 +1,3 @@
 # autoplan
+
+Designing a system to automate architectural plan design and optimisation of building layout. The planning goal is to maximise the volume of buildings in a particular area while complying with some design constraints, e.g., floor area ratio, heights, etc. A heuristic space search algorithm is leveraged to search and select optimal plan schemes. The area is firstly partitioned by column-wise sweeping lines, and for each column different row-wise arrangements are searched while limiting the search conditions according to the constraints. The top-k schemes will be ranked according to the objective function. Combining algorithms with architecture design can yield more efficient and productive plans.
